@@ -32,5 +32,5 @@ dataEntry stackTop(Stack *);
 
 int stackSize(Stack *);
 
-
-#endif // HEADER_H_INCLUDED
+// HEADER_H_INCLUDED
+#endif 
