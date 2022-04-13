@@ -3,7 +3,9 @@
 #include <stdbool.h>
 
 #define MaxStack 100
-typedef int dataEntry;      /// if you changed dataEntry type you have should change data type in loop in function traversal Stack
+
+/// if you changed dataEntry type you have should change data type in loop in function traversal Stack
+typedef int dataEntry;      
 
 typedef struct Stack{
     int top;
@@ -16,9 +18,11 @@ void stackPush(dataEntry,Stack *);
 
 dataEntry stackPop(Stack *);
 
-bool isStackEmpty(Stack *); /// pointer here for optimization not to change in the stack values
+/// pointer here for optimization not to change in the stack values
+bool isStackEmpty(Stack *);  
 
-bool isStackFull(Stack *);  /// pointer here for optimization not to change in the stack values
+/// pointer here for optimization not to change in the stack values
+bool isStackFull(Stack *);  
 
 void clearStack(Stack *);
 
